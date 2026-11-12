@@ -7,7 +7,7 @@ A [Herdr](https://herdr.dev/) mod: the sidebar's Agents list, grouped by git rep
 ## Install
 
 ```sh
-git clone <this repo> ~/dev/oss/herdr-agents-by-repo
+git clone https://github.com/meltin/herdr-agents-by-repo ~/dev/oss/herdr-agents-by-repo
 ln -s ~/dev/oss/herdr-agents-by-repo/mods/agents-by-repo ~/.config/herdr-app/mods/agents-by-repo
 herdr-app check ~/.config/herdr-app/mods/agents-by-repo
 ```

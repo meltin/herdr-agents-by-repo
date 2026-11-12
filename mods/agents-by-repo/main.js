@@ -1,3 +1,4 @@
+// Modified from the `agents` mod shipped with Herdr.app 0.1.15: grouped by git repository. See NOTICE.
 // Agents in grouped or priority views; parents take their most urgent sub-agent's place.
 
 import { View, div, image, svg } from "gpui-kit";
