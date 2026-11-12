@@ -1,0 +1,7 @@
+mods/agents-by-repo/main.js is a modified copy of the `agents` mod that ships with
+Herdr.app (0.1.15), licensed under the Apache License 2.0 (see LICENSE).
+
+Changes: in the "Grouped by space" view, agents are grouped by git repository
+(git rev-parse --git-common-dir of each agent's folder) instead of by space, so an
+agent in a worktree space is listed under its repository, and its row is prefixed
+with its space name. Until the git lookup returns, an agent stays in its space group. Next/previous agent follows the list as shown.
